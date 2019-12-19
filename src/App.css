@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #8899bb;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.App-text {
+  color: black !important;
+  background-color: white !important;
+  font-size: 20px !important;
+  position: relative;
+}
+
+.App-block {
+  margin: 0px;
+}
+
+#menu {
+  width: 1090px;
+  height: 42px;
+  list-style: none;
+  margin: 10px 0 0 0; padding: 25px 10px;
+  border-top: 4px double #AAA;
+  border-bottom: 4px double #AAA;
+  position: relative;
+  text-align: center;
+}
+
+@media only screen and (min-width: 992px) {
+  .btn-add {
+    margin-top: 100px;
+  }
+}
+
+.header-title {
+  padding: 10px;
+}
+
+.App-result {
+  cursor: inherit !important;
+}
+
+.title-text {
+  background-color: white;
+}
